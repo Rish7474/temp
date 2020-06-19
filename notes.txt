@@ -1,0 +1,19 @@
+py_slither online version:
+
+test version:
+-No matchmaking
+-One gaming channel
+-first player spawns in top left corner and
+ second player spawns in bottom right corner
+-DB stores the direction of the two snakes and 
+ users will keep track off boths snakes on their own system
+-After a user dies, delete all of its data from the database
+
+Use firebase realtime database to store the direction of the snakes
+
+dependices to run prgm:
+python3
+request module: pip install requests
+python-firebase module: pip install python-firebase
+pygame module: pip install pygame
+
